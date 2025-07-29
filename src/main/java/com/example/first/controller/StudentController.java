@@ -16,7 +16,7 @@ public class StudentController {
 
     public String get()
     {
-        return  "Hello welcome to Docker Hub ";
+        return  "Hello Welcome to Docker Hub ";
     }
     @PostMapping("/save")
     public Student save(@RequestBody Student student)
