@@ -13,9 +13,10 @@ public class StudentController {
     @Autowired
     StudentService studentService;
     @GetMapping("/get")
+
     public String get()
     {
-        return  "Hello welcome to Docker";
+        return  "Hello welcome to Docker Hub ";
     }
     @PostMapping("/save")
     public Student save(@RequestBody Student student)
