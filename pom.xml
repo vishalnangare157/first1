@@ -11,9 +11,6 @@
 	<groupId>com.example</groupId>
 	<artifactId>first</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<build>
-		<finalName>first-app</finalName>
-	</build>
 	<name>first</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -65,6 +62,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</build>
-
+			<finalName>first-app</finalName>
+		</build>
 </project>
